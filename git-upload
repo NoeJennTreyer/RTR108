@@ -1,0 +1,7 @@
+git config --global user.email "noe.jenntreyer@gmail.com";
+git config --global user.name "NoeJennTreyer"
+git add *
+echo "Enter commit commentary"
+read a
+git commit -m "$a"
+git push origin master
